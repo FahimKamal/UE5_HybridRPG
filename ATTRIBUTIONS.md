@@ -38,3 +38,12 @@ This means the UI assets are essentially in the public domain, and you can use t
 Sounds sourced from these platforms under CC0 are also effectively public domain. Ensure any specific sounds downloaded were indeed marked CC0 on their respective sites.
 
 ---
+
+## Environment Assets
+
+*   **Asset Pack:** Stylized Eastern Village
+    *   **Source:** [Fab.com Product Page](https://fab.com/s/77cc7df74a61)
+    *   **Usage License:** Governed by the Fab End User License Agreement (EULA). Please review the terms carefully.
+    *   **Fab EULA:** [https://www.fab.com/eula](https://www.fab.com/eula)
+---
+

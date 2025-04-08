@@ -155,7 +155,7 @@ This project aims to explore and demonstrate proficiency in several key areas:
 
 ## 📜 Assets & Attributions
 
-This project uses freely available assets from various creators. Please see the [**ATTRIBUTIONS.md**](ATTRIBUTIONS.md) file for detailed license information and credits for Characters, UI, Sound, and Environment assets used.
+This project uses freely available assets from various creators. Please see the [**ATTRIBUTIONS.md**](ATTRIBUTIONS.md) file for detailed license information and credits for Characters, UI, Sound, and **Environment** assets used.
 
 ---
 
