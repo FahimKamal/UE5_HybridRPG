@@ -1,4 +1,4 @@
-# 🏯 Hybrid RPG - UE5 Hybrid RPG 🐉 (Early Development)
+# 🏯 Hybrid RPG - UE5 Hybrid RPG 🐉 (In Progress)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.3.1-blueviolet)](https://www.unrealengine.com/)
@@ -11,6 +11,9 @@
 ======================================================================
 === VISUAL SHOWCASE - ADD YOUR GIF/SCREENSHOT HERE ===
 ======================================================================
+Now is a GREAT time to add a GIF showing the animated Player character
+moving and rotating within the "Stylized Eastern Village" environment,
+demonstrating the fixed camera!
 Replace the line below with your actual image/gif link when ready.
 Example: 
 <p align="center">
@@ -18,15 +21,15 @@ Example:
 </p>
 ====================================================================== 
 -->
-<!-- (Visual Showcase Placeholder) -->
+<!-- (Visual Showcase Placeholder - Fixed Camera Demo GIF Recommended!) -->
 
 ---
 
 ## 🎯 Overview
 
-**Journey through ancient China!** **Hybrid RPG** is an open-source **Hybrid RPG** prototype being developed in **Unreal Engine 5.3.1**. It uniquely blends animated **2D characters** (powered by the **[PaperZD](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)** plugin) with immersive **3D environments**. The project focuses on **exploration**, **NPC interaction**, and uncovering **narrative threads**, all viewed from a **top-down style camera**.
+**Journey through ancient China!** **Hybrid RPG** is an open-source **Hybrid RPG** prototype being developed in **Unreal Engine 5.3.1**. It uniquely blends animated **2D characters** (powered by the **[PaperZD](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)** plugin) that **rotate freely** with immersive **3D environments** from assets like the **[Stylized Eastern Village](https://fab.com/s/77cc7df74a61)** pack. The project focuses on **exploration**, **NPC interaction**, and uncovering **narrative threads**, all viewed from a **fixed-angle, position-following top-down style camera**.
 
-This project serves as a portfolio piece demonstrating skills in Unreal Engine, Blueprint scripting, integrating specialized plugins (PaperZD), and building foundational RPG systems within a unique visual style. *(Note: Project name is temporary; creative name brainstorming planned!)*
+This project serves as a portfolio piece demonstrating skills in Unreal Engine, Blueprint scripting, integrating specialized plugins (PaperZD), using environment assets, establishing character hierarchies, and building foundational RPG systems within a unique visual style. *(Note: Project name is temporary; creative name brainstorming planned!)*
 
 ---
 
@@ -38,16 +41,19 @@ This project serves as a portfolio piece demonstrating skills in Unreal Engine, 
 
 ---
 
-## ✨ Key Features (Planned & In-Progress)
+## ✨ Key Features (Implemented & Planned)
 
-*   🎭 **Hybrid 2D/3D Presentation:** The core visual style featuring 2D sprite characters navigating and interacting within a fully 3D world.
-*   🚶‍♂️ **Top-Down Exploration:** Smooth character movement and camera controls designed for exploring the detailed city environment.
-*   📜 **PaperZD Integration:** Utilizing [PaperZD](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0) for advanced 2D character animation state machines, notifications, and potentially gameplay logic integration.
-*   💬 **NPC Interaction System (Planned):** Framework for initiating dialogue, simple quests, or receiving information from city dwellers.
-*   🗺️ **Ancient Chinese Setting:** Establishing the art style and atmosphere of a historical (or fantasy-inspired historical) Chinese city.
-*   📖 **Narrative Framework (Planned):** Basic systems to support discovering story elements through interaction and exploration.
+*   🎭 **Hybrid 2D/3D Presentation:** Core visual style featuring 2D sprite characters in a 3D world.
+*   🚶‍♂️ **Top-Down Exploration (Implemented):** Player character movement and input handling functional. **Characters rotate** to face movement direction.
+*   📜 **PaperZD Integration (Implemented):** Idle and Run animations driven by Animation Blueprints for Player Character and 2 NPC types.
+*   🔄 **Fixed-Angle Following Camera (Implemented):** Camera **maintains a fixed viewing angle** but **moves its position** to follow the player smoothly through the world.
+*   🏗️ **Blueprint Character Hierarchy:** Planned structure: `BP_RPGChar_Base` -> (`BP_Player`, `BP_NPC`) -> `BP_Follower` (see details in code/design docs if added).
+*   🗺️ **Ancient Chinese Setting (In Progress):** Base environment established using the free **[Stylized Eastern Village](https://fab.com/s/77cc7df74a61)** asset pack. Further customization planned.
+*   💬 **NPC Interaction System (Planned):** Framework for initiating dialogue, simple quests, or receiving information.
+*   🤖 **NPC Base Logic (Planned):** Foundation for NPC roaming and basic behaviors.
+*   📖 **Narrative Framework (Planned):** Basic systems to support discovering story elements.
 *   💡 **100% Blueprint Driven:** Developed entirely using Unreal Engine's Blueprint visual scripting.
-*   🔄 **Dynamic Camera:** Camera that follows the player while maintaining a consistent angle/view.
+*   🖼️ **Core Assets:** Includes sprite sheets (Player, 2 NPCs), initial sounds, UI elements, and the primary environment pack. (See Attributions).
 
 ---
 
@@ -57,13 +63,13 @@ This project serves as a portfolio piece demonstrating skills in Unreal Engine, 
 ======================================================================
 Add static screenshots here when available. Examples:
 <p align="center">
-  <img src="Media/screenshot_npc_interaction.png" alt="NPC Interaction Screenshot" width="45%"/>
-  <img src="Media/screenshot_environment.png" alt="Environment Screenshot" width="45%"/>
+  <img src="Media/player_in_village.png" alt="Player exploring the Eastern Village" width="45%"/>
+  <img src="Media/npc_animation.png" alt="NPC Idle Animation" width="45%"/>
 </p>
 ====================================================================== 
 -->
 ## 📸 Screenshots (Placeholders)
-<!-- (More Screenshots Area) -->
+<!-- (More Screenshots Area - Show player/NPCs in the new environment!) -->
 
 ---
 
@@ -72,24 +78,28 @@ Add static screenshots here when available. Examples:
 *   **Engine:** Unreal Engine 5.5.1 ⚙️
 *   **Core Logic:** Blueprints 📘
 *   **2D Animation/Character Logic:** [PaperZD Plugin](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0) 📜
+*   **Primary Environment Assets:** [Stylized Eastern Village](https://fab.com/s/77cc7df74a61) (Free Pack from Fab.com) 🏘️
+*   **Other Assets:** Characters, UI, Sounds (See Attributions) 🎨🔊
 *   **Version Control:** Git / GitHub 💾
 
 ---
 
-## 📊 Project Status (Early Development)
+## 📊 Project Status (In Progress)
 
-*   🏗️ **Foundation Phase:** Setting up the core project, folder structures, and basic configurations.
-*   🔌 **Plugin Integration:** Successfully integrating and configuring the PaperZD plugin.
-*   🏃‍♂️ **Basic Character Setup:** Implementing initial player character movement and the following camera system.
-*   ⏳ **Next Steps:** Building the first environment blockouts, prototyping basic NPC interaction.
+*   ✅ **Foundation & Setup:** Core project structure, plugin integration complete.
+*   ✅ **Asset Integration:** Initial sprite sheets, sounds, UI elements, and **Stylized Eastern Village environment pack** added.
+*   ✅ **Core Animation System:** Idle/Run animations implemented via PaperZD AnimBPs for Player + 2 NPCs.
+*   ✅ **Player Control & Movement:** Basic movement, **character rotation**, and input system functional.
+*   ✅ **Camera System:** **Fixed-angle, position-following camera** implemented.
+*   ⏳ **Next Steps:** Implementing planned Blueprint Class Hierarchy (`BP_RPGChar_Base`, etc.), implementing basic NPC roaming AI, prototyping the NPC interaction/dialogue system, refining environment layout.
 
 ---
 
-## ⌨️ Controls (Initial Plan)
+## ⌨️ Controls (Current Implementation)
 
-*   **Movement:** WASD / Arrow Keys (Likely 8 Directions)
-*   **Interact:** [Button - e.g., E or F] - To talk to NPCs or interact with objects.
-*   **Menu Navigation:** Mouse Click 🖱️
+*   **Movement:** WASD / Arrow Keys (Mapped via Input Actions - Controls character movement and facing direction).
+*   **Interact:** [Button - e.g., E or F] (Input Action exists, logic TBD).
+*   **Menu Navigation:** Mouse Click 🖱️ (For potential future menus - Mouse does **not** control camera rotation).
 
 ---
 
@@ -109,8 +119,8 @@ Add static screenshots here when available. Examples:
 3.  **Ensure Unreal Engine 5.5.1** is installed via the Epic Games Launcher.
 4.  **⚠️ Important: PaperZD Plugin Requirement:**
     *   This project requires the **free** [PaperZD Plugin](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0).
-    *   The plugin *should* be included in the project's `Plugins` folder in this repository. When you open the project, Unreal Engine *should* detect it automatically.
-    *   **If you encounter errors** mentioning a missing PaperZD plugin or the project fails to load: Please ensure you have **obtained and installed PaperZD** for your UE **5.5.1** engine installation (e.g., add it via the Epic Games Launcher Library if you acquired it there, or place it in `Epic Games/UE_5.5/Engine/Plugins`). You can get it here: [https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)
+    *   The plugin *should* be included in the project's `Plugins` folder. Unreal Engine *should* detect it automatically.
+    *   **If you encounter errors:** Please ensure you have **obtained and installed PaperZD** for your UE **5.5.1** engine installation. Get it here: [https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)
 5.  **Open** the `.uproject` file (`UE5_HybridRPG.uproject`) by double-clicking it.
 6.  **Press Play** in the editor toolbar to run the current state of the project.
 
@@ -120,26 +130,32 @@ Add static screenshots here when available. Examples:
 
 This project aims to explore and demonstrate proficiency in several key areas:
 
-*   **Hybrid Development:** Mastering the challenges and techniques of integrating 2D assets (PaperZD) into a 3D UE5 environment seamlessly.
-*   **PaperZD Workflow:** Gaining deep experience with PaperZD for complex 2D animation and character logic.
-*   **Blueprint Architecture:** Designing scalable and maintainable Blueprint systems for RPG mechanics (interaction, dialogue, potentially quests/inventory later).
-*   **World Building:** Creating an atmospheric 3D environment that complements the 2D characters.
-*   **RPG System Fundamentals:** Implementing foundational elements common in role-playing games.
+*   **Hybrid Development:** Integrating 2D assets (PaperZD) into a 3D UE5 environment.
+*   **PaperZD Workflow:** Utilizing PaperZD for 2D animation and character logic.
+*   **Blueprint Architecture:** Designing scalable RPG systems (characters via inheritance, interaction, etc.).
+*   **World Building:** Using and potentially customizing environment asset packs.
+*   **RPG System Fundamentals:** Implementing core RPG mechanics.
+*   **Input Systems:** Using Unreal's Input Action system.
+*   **Camera Control:** Implementing fixed-angle, follow cameras.
 
 ---
 
 ## 🔮 Future Plans / Potential Enhancements
 
-As development progresses, potential areas for expansion include:
+*   ✨ **Deeper RPG Systems:** Inventory, stats, skills, quests.
+*   🏘️ **Expanded World:** Customizing/expanding the Eastern Village, adding interiors or new areas.
+*   🤖 **Advanced NPC Behaviors:** Implementing the `BP_Follower`, schedules, dynamic reactions, AI improvements (Behavior Trees?).
+*   🎨 **Art & Polish:** More character animations, VFX, UI improvements.
+*   🔊 **Audio Immersion:** More specific sounds, ambient loops.
+*   💾 **Saving/Loading:** Game progress persistence.
+*   💡 **Creative Name:** Brainstorming final project title.
+*   📝 **Story Development:** Crafting and implementing the narrative.
 
-*   ✨ **Deeper RPG Systems:** Implementing inventory, stats, skills, or more complex quest logic.
-*   🏘️ **Expanded World:** Building out more areas of the city or surrounding environments.
-*   🤖 **Advanced NPC Behaviors:** Giving NPCs schedules, more dynamic reactions, or roles in the world.
-*   🎨 **Art & Polish:** Refining character art, adding more environmental detail, improving VFX and UI.
-*   🔊 **Audio Immersion:** Adding ambient sounds, specific interaction sounds, and possibly voice snippets.
-*   💾 **Saving/Loading:** Implementing game progress persistence.
-*   💡 **Creative Name:** Brainstorming and finalizing a unique and catchy project title.
-*   📝 **Story Development:** Crafting and implementing the narrative arc.
+---
+
+## 📜 Assets & Attributions
+
+This project uses freely available assets from various creators. Please see the [**ATTRIBUTIONS.md**](ATTRIBUTIONS.md) file for detailed license information and credits for Characters, UI, Sound, and Environment assets used.
 
 ---
 
