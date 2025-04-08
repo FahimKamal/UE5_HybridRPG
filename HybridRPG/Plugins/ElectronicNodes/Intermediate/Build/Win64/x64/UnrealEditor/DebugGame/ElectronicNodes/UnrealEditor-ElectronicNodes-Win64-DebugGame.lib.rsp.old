@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ElectronicNodes-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal_Projects\UE5_Aura\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ElectronicNodes\Module.ElectronicNodes.cpp.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ElectronicNodes\PerModuleInline.gen.cpp.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ElectronicNodes\ElectronicNodes.init.gen.cpp.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ElectronicNodes\ElectronicNodesSettings.gen.cpp.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ElectronicNodes\ENUpdateConfig.gen.cpp.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ElectronicNodes\Default.rc2.res"
+/OUT:"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\ElectronicNodes\UnrealEditor-ElectronicNodes-Win64-DebugGame.lib"

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal_projects\\ue5_aura\\aura\\plugins\\electronicnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\electronicnodes\\uht\\enupdateconfig.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal_projects\\ue5_aura\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\unreal_projects\\ue5_aura\\aura\\plugins\\electronicnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\electronicnodes\\definitions.electronicnodes.h",
+            "d:\\unreal_projects\\ue5_aura\\aura\\plugins\\electronicnodes\\source\\electronicnodes\\private\\popup\\enupdateconfig.h",
+            "d:\\unreal_projects\\ue5_aura\\aura\\plugins\\electronicnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\electronicnodes\\uht\\enupdateconfig.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

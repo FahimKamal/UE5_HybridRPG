@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal_projects\\ue5_aura\\aura\\plugins\\electronicnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\electronicnodes\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal_projects\\ue5_aura\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\unreal_projects\\ue5_aura\\aura\\plugins\\electronicnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\electronicnodes\\definitions.electronicnodes.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

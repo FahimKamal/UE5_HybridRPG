@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ElectronicNodes.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal_Projects\UE5_Aura\Aura\Intermediate\Build\Win64\x64\AuraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Module.ElectronicNodes.cpp.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
+/OUT:"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\UnrealEditor-ElectronicNodes.lib"

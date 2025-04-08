@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\enpathdrawer.cpp",
+        "ProvidedModule": "",
+        "PCH": "x:\\unreal projects1\\plugin 5.5\\intermediate\\build\\win64\\x64\\plugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electronicnodes\\definitions.electronicnodes.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\enpathdrawer.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\connectiondrawingpolicy.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\grapheditorsettings.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\unrealed\\public\\edgraphnode_comment.h",
+            "x:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\edgraphnode_comment.generated.h",
+            "x:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\grapheditor\\uht\\grapheditorsettings.generated.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\graphsplineoverlapresult.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\sgraphpin.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\sgraphnode.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\snodepanel.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\public\\diffresults.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\marqueeoperation.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\swrapbox.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\enconnectiondrawingpolicy.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\unrealed\\public\\edgraphutilities.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\public\\electronicnodessettings.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\electronicnodes\\uht\\electronicnodessettings.generated.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\grapheditor\\public\\blueprintconnectiondrawingpolicy.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

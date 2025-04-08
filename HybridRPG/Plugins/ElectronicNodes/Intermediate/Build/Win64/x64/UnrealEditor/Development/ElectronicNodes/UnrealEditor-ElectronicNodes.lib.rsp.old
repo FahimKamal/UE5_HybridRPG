@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ElectronicNodes.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"X:\Unreal Projects1\Plugin 5.5\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Module.ElectronicNodes.cpp.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ElectronicNodes.cpp.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENConnectionDrawingPolicy.cpp.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENPathDrawer.cpp.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\NodeFactoryPatch.cpp.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENUpdatePopup.cpp.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENWardenPopup.cpp.obj"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
+/OUT:"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\UnrealEditor-ElectronicNodes.lib"

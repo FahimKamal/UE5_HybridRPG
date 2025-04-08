@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\popup\\enwardenpopup.cpp",
+        "ProvidedModule": "",
+        "PCH": "x:\\unreal projects1\\plugin 5.5\\intermediate\\build\\win64\\x64\\plugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electronicnodes\\definitions.electronicnodes.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\popup\\enwardenpopup.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\pluginwarden\\public\\ipluginwardenmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

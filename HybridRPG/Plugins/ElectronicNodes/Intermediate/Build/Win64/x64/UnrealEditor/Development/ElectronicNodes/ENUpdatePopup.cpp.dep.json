@@ -1,0 +1,40 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\popup\\enupdatepopup.cpp",
+        "ProvidedModule": "",
+        "PCH": "x:\\unreal projects1\\plugin 5.5\\intermediate\\build\\win64\\x64\\plugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electronicnodes\\definitions.electronicnodes.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\popup\\enupdatepopup.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatehyperlinkrun.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\ilayoutblock.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\irunrenderer.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\islaterun.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\editor\\editorstyle\\public\\editorstyleset.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\source\\electronicnodes\\private\\popup\\enupdateconfig.h",
+            "x:\\unreal projects1\\plugin 5.5\\plugins\\electronicnodes\\intermediate\\build\\win64\\unrealeditor\\inc\\electronicnodes\\uht\\enupdateconfig.generated.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\text\\srichtextblock.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\itextdecorator.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\textdecorators.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatewidgetrun.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatetextlayoutfactory.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatetextlayout.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\swebbrowser.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\swebbrowserview.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowsersingleton.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowserresourceloader.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\plugindisalloweddescriptor.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h",
+            "x:\\epic games\\ue_5.5\\engine\\source\\runtime\\projects\\public\\versescope.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
