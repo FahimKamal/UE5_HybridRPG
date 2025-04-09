@@ -1,7 +1,7 @@
 # 🏯 Hybrid RPG - UE5 Hybrid RPG 🐉 (In Progress)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.3.1-blueviolet)](https://www.unrealengine.com/)
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.5.1-blueviolet)](https://www.unrealengine.com/)
 [![Made with Blueprints](https://img.shields.io/badge/Made%20with-Blueprints-blue)](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html)
 [![Uses PaperZD](https://img.shields.io/badge/Uses-PaperZD-orange)](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0) <!-- Fab/Marketplace link -->
 
@@ -27,7 +27,7 @@ Example:
 
 ## 🎯 Overview
 
-**Journey through ancient China!** **Hybrid RPG** is an open-source **Hybrid RPG** prototype being developed in **Unreal Engine 5.3.1**. It uniquely blends animated **2D characters** (powered by the **[PaperZD](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)** plugin) that **rotate freely** with immersive **3D environments** from assets like the **[Stylized Eastern Village](https://fab.com/s/77cc7df74a61)** pack. The project focuses on **exploration**, **NPC interaction**, and uncovering **narrative threads**, all viewed from a **fixed-angle, position-following top-down style camera**.
+**Journey through ancient China!** **Hybrid RPG** is an open-source **Hybrid RPG** prototype being developed in **Unreal Engine 5.5.1**. It uniquely blends animated **2D characters** (powered by the **[PaperZD](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)** plugin) that **rotate freely** with immersive **3D environments** from assets like the **[Stylized Eastern Village](https://fab.com/s/77cc7df74a61)** pack. The project focuses on **exploration**, **NPC interaction**, and uncovering **narrative threads**, all viewed from a **fixed-angle, position-following top-down style camera**.
 
 This project serves as a portfolio piece demonstrating skills in Unreal Engine, Blueprint scripting, integrating specialized plugins (PaperZD), using environment assets, establishing character hierarchies, and building foundational RPG systems within a unique visual style. *(Note: Project name is temporary; creative name brainstorming planned!)*
 
@@ -109,7 +109,7 @@ Add static screenshots here when available. Examples:
 
 *   *Once available, instructions to download and run a pre-built version will be here.*
 
-**Option 2: From Source (For Developers - Requires Unreal Engine 5.3.1 & PaperZD)** 🔧
+**Option 2: From Source (For Developers - Requires Unreal Engine 5.5.1 & PaperZD)** 🔧
 
 1.  **Clone the repository:**
     ```bash
