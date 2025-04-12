@@ -1,0 +1,11 @@
+---,DialogueText,NextRow
+Guard_Greeting,Welcome to Baishan!,
+Guard_Guidance,If you're looking to stock up on supplies I might be able to give you some guidance.,Guard_Guidance_1
+Guard_Guidance_1,The general store is located to the west side of the main plaza. There you can purchase armor, food and other supplies.",
+Mei_Follow,You came here looking for strong fighters to join you and prevent the kingdom falling into chaos?,Mei_Follow_1
+Mei_Follow_1,I spent my entire life in this town perfecting my martial arts... But never had the chance to use my powers to help others..,Mei_Follow_2
+Mei_Follow_2,Let me join you on your adventures!,
+Ren_Arrival,I heard of a strong fighter living in this town... If I can convince her to join my cause I might be able to prevent the calamity...,
+Guard_Arrival,Stop right there! You'll need to leave behind your weapons if you want to enter Baishan.,Guard_Arrival_1
+Guard_Arrival_1,You can get your belongings back upon departure.,
+Guard_Outsider,I can tell that you're not from around here. We don't often get visitors from other regions of the kingdom.,
