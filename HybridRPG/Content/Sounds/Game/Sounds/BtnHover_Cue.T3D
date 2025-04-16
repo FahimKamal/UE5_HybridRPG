@@ -1,0 +1,37 @@
+Begin Object Class=/Script/Engine.SoundCue Name="BtnHover_Cue" ExportPath="/Script/Engine.SoundCue'/Game/Sounds/BtnHover_Cue.BtnHover_Cue'"
+   Begin Object Class=/Script/AudioEditor.SoundCueGraph Name="SoundCueGraph_0" ExportPath="/Script/AudioEditor.SoundCueGraph'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundCueGraph_0'"
+      Begin Object Class=/Script/AudioEditor.SoundCueGraphNode Name="SoundCueGraphNode_0" ExportPath="/Script/AudioEditor.SoundCueGraphNode'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundCueGraph_0.SoundCueGraphNode_0'"
+      End Object
+      Begin Object Class=/Script/AudioEditor.SoundCueGraphNode_Root Name="SoundCueGraphNode_Root_0" ExportPath="/Script/AudioEditor.SoundCueGraphNode_Root'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.SoundNodeWavePlayer Name="SoundNodeWavePlayer_0" ExportPath="/Script/Engine.SoundNodeWavePlayer'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundNodeWavePlayer_0'"
+   End Object
+   Begin Object Name="SoundCueGraph_0" ExportPath="/Script/AudioEditor.SoundCueGraph'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundCueGraph_0'"
+      Begin Object Name="SoundCueGraphNode_0" ExportPath="/Script/AudioEditor.SoundCueGraphNode'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundCueGraph_0.SoundCueGraphNode_0'"
+         SoundNode="/Script/Engine.SoundNodeWavePlayer'BtnHover_Cue:SoundNodeWavePlayer_0'"
+         NodePosX=-335
+         NodeGuid=846F4E28464075EAB93C8D8467D3FF80
+         CustomProperties Pin (PinId=6AD9178A495605F1D602D79406B681D8,PinName="Output",Direction="EGPD_Output",PinType.PinCategory="SoundNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_Root_0 BB36ADE841AD8C30288D89A2E5F1D319,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="SoundCueGraphNode_Root_0" ExportPath="/Script/AudioEditor.SoundCueGraphNode_Root'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0'"
+         NodePosY=-58
+         NodeGuid=1FE7D9F0419E3AAB5DA4C39DE05350F3
+         CustomProperties Pin (PinId=BB36ADE841AD8C30288D89A2E5F1D319,PinType.PinCategory="SoundNode",PinType.PinSubCategory="Root",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_0 6AD9178A495605F1D602D79406B681D8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/AudioEditor.SoundCueGraphSchema'"
+      Nodes(0)="/Script/AudioEditor.SoundCueGraphNode_Root'SoundCueGraphNode_Root_0'"
+      Nodes(1)="/Script/AudioEditor.SoundCueGraphNode'SoundCueGraphNode_0'"
+      bAllowDeletion=False
+      GraphGuid=427778C04E259446EAF14CB1A22CA1C6
+   End Object
+   Begin Object Name="SoundNodeWavePlayer_0" ExportPath="/Script/Engine.SoundNodeWavePlayer'/Game/Sounds/BtnHover_Cue.BtnHover_Cue:SoundNodeWavePlayer_0'"
+      SoundWaveAssetPtr="/Game/Sounds/BtnHover.BtnHover"
+      GraphNode="/Script/AudioEditor.SoundCueGraphNode'BtnHover_Cue:SoundCueGraph_0.SoundCueGraphNode_0'"
+   End Object
+   FirstNode="/Script/Engine.SoundNodeWavePlayer'SoundNodeWavePlayer_0'"
+   AllNodes(0)="/Script/Engine.SoundNodeWavePlayer'SoundNodeWavePlayer_0'"
+   SoundCueGraph="/Script/AudioEditor.SoundCueGraph'SoundCueGraph_0'"
+   Duration=0.404263
+   MaxDistance=2097152.000000
+End Object
