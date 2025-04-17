@@ -7,6 +7,10 @@
 
 ---
 
+
+https://github.com/user-attachments/assets/aba256cf-6dc8-45f2-b07e-d1039a4826b6
+
+
 <!-- 
 ======================================================================
 === VISUAL SHOWCASE - REPLACE WITH YOUR BEST GIF/SCREENSHOT ===
@@ -80,6 +84,13 @@ Showcase different elements like the Occlusion effect, the Follower, the menus, 
 ## 📸 Screenshots (Placeholders)
 <!-- (Add compelling screenshots here!) -->
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ee58be83-399e-42c9-998d-dd97ce5e3f5e" alt="Screenshot 1 Description" width="45%"/> 
+  <img src="https://github.com/user-attachments/assets/b9cf74b3-7ce2-48f7-bc77-9ec6da2c15b6" alt="Screenshot 2 Description" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/15782d42-dcd2-4ca0-9c08-6e3d6c1c6823" alt="Screenshot 3 Description" width="45%"/> 
+  <img src="https://github.com/user-attachments/assets/25c68b09-c6fb-4f26-b770-461f21dd199b" alt="Screenshot 4 Description" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/4f2deb2b-c77a-49f8-b527-6a032f0630c3" alt="Screenshot 4 Description" width="45%"/>
+</p>
 ---
 
 ## 💻 Technology Stack
