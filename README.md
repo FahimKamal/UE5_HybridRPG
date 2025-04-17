@@ -1,4 +1,4 @@
-# 🏯 Pixel Pilgrim 🐉 (Completed Learning Project)
+# 🏯 Pixel Pilgrim 🐉
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.5.1-blueviolet)](https://www.unrealengine.com/)
@@ -91,6 +91,7 @@ Showcase different elements like the Occlusion effect, the Follower, the menus, 
   <img src="https://github.com/user-attachments/assets/25c68b09-c6fb-4f26-b770-461f21dd199b" alt="Screenshot 4 Description" width="45%"/>
   <img src="https://github.com/user-attachments/assets/4f2deb2b-c77a-49f8-b527-6a032f0630c3" alt="Screenshot 4 Description" width="45%"/>
 </p>
+
 ---
 
 ## 💻 Technology Stack
