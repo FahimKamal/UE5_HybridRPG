@@ -81,8 +81,7 @@ Showcase different elements like the Occlusion effect, the Follower, the menus, 
 </p>
 ====================================================================== 
 -->
-## 📸 Screenshots (Placeholders)
-<!-- (Add compelling screenshots here!) -->
+## 📸 Screenshots
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ee58be83-399e-42c9-998d-dd97ce5e3f5e" alt="Screenshot 1 Description" width="45%"/> 
